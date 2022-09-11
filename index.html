@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Calculator</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row align-items-center general justify-content-between">
+            <div class="col-lg-6 text-start">
+              <a href="">Kredit kalkulyatoru</a>
+            <div class="rangePart">
+              <div class="text">
+                <span>Kredit məbləği</span>
+                <h3><span id="demo">5000</span> AZN</h3>
+
+              </div>
+              <div class="slidecontainer">
+                <input type="range" min="1" max="30000" class="slider" id="myRange">
+              </div>
+              <div class="bottomText">
+                <div class="row">
+                  <div class="col-lg-6">
+                      <a href="">1</a>
+                  </div>
+                  <div class="col-lg-6 text-end">
+                    <a href="">30000</a>
+                  </div>
+                </div>
+              </div>
+              <div class="text">
+                <span>Kredit muddeti</span>
+                <h3><span id="demo2">6</span> ay</h3>
+
+              </div>
+              <div class="slidecontainer">
+                <input type="range" min="1" max="54" class="slider" id="myRange2">
+              </div>
+              <div class="bottomText">
+                <div class="row">
+                  <div class="col-lg-6">
+                      <a href="">1 ay</a>
+                  </div>
+                  <div class="col-lg-6 text-end">
+                    <a href="">54 ay</a>
+                  </div>
+                </div>
+              </div>
+              <div class="text">
+                <span>Kredit faizi</span>
+                <h3><span id="demo3">16.9</span> %</h3>
+
+              </div>
+              <div class="slidecontainer">
+                <input type="range" min="12.9" max="20.9" class="slider" id="myRange3">
+              </div>
+              <div class="bottomText">
+                <div class="row">
+                  <div class="col-lg-6">
+                      <a href="">12.9%</a>
+                  </div>
+                  <div class="col-lg-6 text-end">
+                    <a href="">20.9%</a>
+                  </div>
+                </div>
+              </div>
+              <p>İlkin hesablama</p>
+            </div>
+
+            </div>  
+            <div class="col-lg-6 text-start">
+              <div class="right">
+                <h3 id="loan" onmouseover="Calculate()">1905.79 <span>₼</span></h3>
+                <p>Aylıq ödəniş</p>
+                <h3>15246.79 <span>₼</span></h3>
+                <p>Ümumi məbləğ</p>
+                <h4>Kredit al</h4>
+                
+              </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

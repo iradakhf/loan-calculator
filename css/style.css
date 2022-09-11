@@ -1,0 +1,44 @@
+.general {
+  padding-top: 8rem;
+}
+.general .bottomText {
+  margin-bottom: 2rem;
+}
+.general .bottomText a {
+  font-size: 15px;
+  font-weight: 300;
+}
+.general input {
+  width: 35rem;
+}
+.general a {
+  font-size: 36px;
+  color: rgb(38, 38, 38);
+  font-weight: 600;
+  text-decoration: none;
+}
+.general .text {
+  display: flex;
+  justify-content: space-between;
+}
+.general .rangePart {
+  padding: 3rem 0rem;
+}
+.general .right {
+  padding: 3rem 0rem 0rem 10rem;
+}
+.general .right h4 {
+  margin-top: 4rem;
+  border: 1px solid rgb(59, 138, 224);
+  font-size: 15px;
+  display: inline-block;
+  padding: 15px 30px;
+  color: white;
+  background-color: rgb(59, 138, 224);
+  border-radius: 0.3rem;
+  transition-duration: 0.5s;
+}
+.general .right h4:hover {
+  cursor: pointer;
+  background-color: blue;
+}/*# sourceMappingURL=style.css.map */

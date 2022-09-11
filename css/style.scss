@@ -1,0 +1,44 @@
+.general{
+    padding-top: 8rem;
+    .bottomText{
+        margin-bottom: 2rem;
+        a{
+            font-size: 15px;
+            font-weight: 300;
+        }
+    }
+    input{
+        width: 35rem;
+    }
+    a{
+        font-size: 36px;
+        color: rgb(38, 38, 38);
+        font-weight: 600;
+        text-decoration: none;
+    }
+    .text{
+        display: flex;
+        justify-content: space-between;
+    }
+    .rangePart{
+        padding: 3rem 0rem;
+    }
+    .right{
+        padding: 3rem 0rem 0rem 10rem;
+      h4{
+        margin-top: 4rem;
+        border: 1px solid rgb(59, 138, 224);
+        font-size: 15px;
+        display: inline-block;
+        padding: 15px 30px;
+        color: white;
+        background-color: rgb(59, 138, 224);
+        border-radius: .3rem;
+        transition-duration: .5s;
+        &:hover{
+            cursor: pointer;
+            background-color: blue;
+        }
+      }
+    }
+}
