@@ -31,5 +31,5 @@ slider3.oninput = function() {
 function Calculate() {
 interest = (amount * (rate * 0.01)) / months;
 total = ((amount / months) + interest);
-    loanAmount.innerHTML = `${total} ₼`;
+    loanAmount.innerHTML = `${Math.floor(total)} ₼`;
 }  
