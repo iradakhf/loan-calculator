@@ -11,20 +11,17 @@ output.innerHTML = slider.value;
 output2.innerHTML = slider2.value;
 output3.innerHTML = slider3.value;
 
-var amount = output.value;
-var months = output2.value;
-var rate = output3.value;
+var amount = 5000;
+var months = 6;
+var rate = 16.9;
 
 
 slider.oninput = function() {
     output.innerHTML = this.value;
-    console.log (output.innerHTML);
     amount=  parseFloat(output.innerHTML);
-    console.log (amount);
 }
 slider2.oninput = function() {
     output2.innerHTML = this.value;
-    console.log (output2.innerHTML);
     months = parseFloat(output2.innerHTML);
 }
 slider3.oninput = function() {
@@ -33,7 +30,6 @@ slider3.oninput = function() {
 }
 function Calculate() {
 interest = (amount * (rate * 0.01)) / months;
-console.log (interest);
 total = ((amount / months) + interest);
     loanAmount.innerHTML = total;
 }  
